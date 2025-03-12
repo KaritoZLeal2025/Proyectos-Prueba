@@ -1,0 +1,218 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #bb606f, #eacdc4);
+    color: #333;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.8rem;
+    color: #900c28;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #443412;
+    padding-right: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 290px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border: 3px solid #900c28;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.card h2 a {
+    text-decoration: none;
+    color: #b4072d;
+    transition: color 0.3s;
+}
+
+.card h2 a:hover {
+    color: #fd5974;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #443412;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #666;
+    padding-left: 15px;
+}
+
+
+
+
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 2.5rem; 
+    }
+
+    header p {
+        font-size: 0.9rem; 
+        padding-right: 20px; 
+        padding-left: 35px;
+    }
+
+    .card {
+        width: 80%; 
+        margin-top: 100px; 
+        padding-left: 25px;
+        padding-right: 30px;
+        
+    }
+
+    .card img {
+        width: 80px; 
+        height: 80px;
+       
+    }
+
+    .card h2 {
+        font-size: 1.2rem; 
+    }
+
+    .card p {
+        font-size: 0.9rem; 
+    }
+
+    footer p {
+        font-size: 0.8rem; 
+    }
+}
+
+
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header p {
+        font-size: 1rem; 
+        padding-right: 30px; 
+        padding-left: 35px;
+    }
+
+    .card {
+        width: 45%; 
+        margin-top: 120px; 
+    }
+
+    .card img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .card h2 {
+        font-size: 1.3rem; 
+    }
+
+    .card p {
+        font-size: 1rem; 
+    }
+}
+
+
+@media (max-width: 1000px) {
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    header p {
+        font-size: 1.1rem; 
+        padding-right: 40px;
+    }
+
+    .card {
+        width: 30%; 
+        margin-top: 130px; 
+    }
+
+    .card img {
+        width: 100px; 
+        height: 100px;
+    }
+
+    .card h2 {
+        font-size: 1.4rem; 
+    }
+
+    .card p {
+        font-size: 1.1rem; 
+    }
+}
+
+@media (min-width: 1001px) {
+    .card {
+        width: 200px;
+        margin-top: 150px; 
+    }
+
+    .card img {
+        width: 100px; 
+        height: 100px;
+    }
+
+    .card h2 {
+        font-size: 1.5rem; 
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+}
